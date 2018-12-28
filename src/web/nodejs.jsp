@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
 <%@ page import="java.util.*" %>
 <%@ page import="org.ifsoft.nodejs.openfire.*" %>
 <%@ page import="org.jivesoftware.openfire.*" %>
