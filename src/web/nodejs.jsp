@@ -3,7 +3,6 @@
 <%@ page import="org.ifsoft.nodejs.openfire.*" %>
 <%@ page import="org.jivesoftware.openfire.*" %>
 <%@ page import="org.jivesoftware.util.*" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%
@@ -16,7 +15,7 @@
 
     if (update)
     {                        
-    String path = request.getParameter("path"); 	
+    String path = request.getParameter("path");
         JiveGlobals.setProperty("org.ifsoft.nodejs.openfire.path", path);                 
         
     }
